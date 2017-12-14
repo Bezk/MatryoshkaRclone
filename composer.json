@@ -1,0 +1,26 @@
+{
+    "name": "matryoshka/rclone",
+    "type": "library",
+    "description": "A simple rclone wrapper",
+    "keywords": ["file transfer", "rclone", "Sync files", "Ceph", "SFTP", "Amazon S3", "Dropbox", "Openstack Swift", "Yandex Disk"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Anatoly Bereznyak",
+        "email": "bezk@me.com",
+        "homepage": "http://twitter.com/bereznyak"
+      }
+    ],
+    "require": {
+        "pastuhov/php-exec-command": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matryoshka\\": "src"
+        }
+    },
+    "platform": {
+      "rclone": "^1.38",
+      "php": "^7.0"
+    }
+}

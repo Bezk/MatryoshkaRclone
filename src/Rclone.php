@@ -99,7 +99,7 @@ class Rclone
                 );
 
                 $sCommand = $aArgs['flags']
-                    ? '{bin} {command} {source} {destination} {flags}'
+                    ? '{bin} {command} {source} {destination} {!flags!}'
                     : '{bin} {command} {source} {destination}';
 
                 $this->sCommand = Command::bindParams(

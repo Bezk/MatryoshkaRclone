@@ -14,6 +14,10 @@
     "require": {
         "pastuhov/php-exec-command": "^1.1"
     },
+    "require-dev": {
+      "phpunit/phpunit" : "6.*",
+      "scrutinizer/ocular": "~1.1"
+    },
     "autoload": {
         "psr-4": {
             "Matryoshka\\": "src"

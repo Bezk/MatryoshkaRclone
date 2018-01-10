@@ -192,6 +192,17 @@ class Flags
     }
 
     /**
+     * Print lots more stuff
+     *
+     * @return $this
+     */
+    public function verbose()
+    {
+        $this->aFlags['--verbose'] = null;
+        return $this;
+    }
+
+    /**
      * Dump HTTP headers with auth info
      *
      * @return $this
